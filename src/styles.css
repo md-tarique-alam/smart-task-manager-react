@@ -1,0 +1,141 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* Main Container */
+.app {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 420px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #222;   /* FIX: make it visible */
+  font-weight: 600;
+}
+
+
+/* Input Section */
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-left: 6px;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.btn-clear {
+  background-color: #e74c3c;
+}
+
+/* Filters */
+.filter-group {
+  margin-top: 10px;
+}
+
+.filter-btn {
+  padding: 6px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #ffffff;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #3498db;
+  color: white;
+}
+
+.filter-btn.active {
+  background: #3498db;
+  color: white;
+  border: none;
+}
+
+/* Total Stats */
+.stats {
+  margin-top: 10px;
+}
+
+/* Task List */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  transition: 0.2s;
+}
+
+.task-item:hover {
+  background: #eef3f7;
+}
+
+.task-text {
+  flex: 1;
+  margin-left: 8px;
+  color: #222;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.task-completed {
+  text-decoration: none;        
+  color: #09a62b;          
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* Task Buttons */
+.btn-delete {
+  background: #e74c3c;
+}
+
+.btn-edit {
+  background: #3498db;
+}
