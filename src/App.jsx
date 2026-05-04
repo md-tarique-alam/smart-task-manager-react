@@ -79,6 +79,9 @@ function App() {
             value={inp}
             onChange={(e) => setInp(e.target.value)}
             placeholder="Write something..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") handleAddandUpdate();
+            }}
             className="input"
           />
           <button onClick={handleAddandUpdate} className="btn btn-add">

@@ -1,11 +1,9 @@
-/* Global */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f4f6f8;
 }
 
-/* Main Container */
 .app {
   display: flex;
   justify-content: center;
@@ -20,16 +18,13 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Title */
 .title {
   text-align: center;
   margin-bottom: 15px;
-  color: #222;   /* FIX: make it visible */
+  color: #222; /* FIX: make it visible */
   font-weight: 600;
 }
 
-
-/* Input Section */
 .input-group {
   display: flex;
   margin-bottom: 10px;
@@ -42,7 +37,6 @@ body {
   border: 1px solid #ccc;
 }
 
-/* Buttons */
 .btn {
   padding: 8px 12px;
   border-radius: 6px;
@@ -53,16 +47,23 @@ body {
   transition: all 0.2s ease;
 }
 
-.btn:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+.btn-add {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #1e40af;
+}
+
+.btn-add:hover {
+  background-color: #1e40af;
 }
 
 .btn-clear {
   background-color: #e74c3c;
 }
 
-/* Filters */
 .filter-group {
   margin-top: 10px;
 }
@@ -89,12 +90,10 @@ body {
   border: none;
 }
 
-/* Total Stats */
 .stats {
   margin-top: 10px;
 }
 
-/* Task List */
 .task-list {
   list-style: none;
   padding: 0;
@@ -125,13 +124,12 @@ body {
 }
 
 .task-completed {
-  text-decoration: none;        
-  color: #09a62b;          
+  text-decoration: none;
+  color: #09a62b;
   font-weight: 500;
   opacity: 0.8;
 }
 
-/* Task Buttons */
 .btn-delete {
   background: #e74c3c;
 }
