@@ -7,6 +7,11 @@ I built this project while learning React by focusing on understanding core conc
 
 ---
 
+## 🔗 Live Demo  
+https://smart-task-manager-react-olive.vercel.app/
+
+---
+
 ## 🚀 Features
 
 * ✅ Add new tasks
